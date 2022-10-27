@@ -3,7 +3,7 @@ package com.ynz.sandbox.currentmethod;
 public class UsingMethodReader {
 
     public static void main(String[] args) {
-        PrintLog printLog = new PrintLog();
+        PrintMethodName printLog = new PrintMethodName();
         printLog.printMethodA();
         printLog.printMethodB();
     }
